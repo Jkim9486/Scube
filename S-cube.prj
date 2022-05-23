@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="789044969" file="D:\SDlab\Program\Sucbe_3.4\S-cube.prj" location="D:\SDlab\Program\Sucbe_3.4" name="S-cube" target="target.mlapps" target-name="앱 패키징">
+  <configuration build-checksum="2099636388" file="D:\SDlab\Documents\GitHub\S-cube.prj" location="D:\SDlab\Documents\GitHub" name="S-cube" target="target.mlapps" target-name="앱 패키징">
     <param.appname>S-cube</param.appname>
     <param.authnamewatermark>Jungmin Kim</param.authnamewatermark>
     <param.email>jkim9486@gmail.com</param.email>
@@ -8,14 +8,14 @@
     <param.icons />
     <param.summary>Time-resolved x-ray solution scattering simulator</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\JungminKim\AppData\Local\Temp\tpe1f1dc4c_7844_40b3_bb8a_e0f073726d79.png</param.screenshot>
-    <param.version>3.4</param.version>
+    <param.screenshot>C:\Users\JungminKim\AppData\Local\Temp\tp4869fff7_0bdc_4d14_b246_7a938beb9fe0.png</param.screenshot>
+    <param.version>3.5</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
     <param.platforms />
     <param.output>${PROJECT_ROOT}</param.output>
-    <param.guid>7ca67e39-31a4-4d08-993b-fdb45e25230a</param.guid>
+    <param.guid>a6f582db-a983-4807-98a1-320c4f382f01</param.guid>
     <unset>
       <param.authnamewatermark />
       <param.email />
@@ -33,36 +33,23 @@
       <file>${PROJECT_ROOT}\Scube.mlapp</file>
     </fileset.main>
     <fileset.depfun>
-      <file>${PROJECT_ROOT}\constant.mat</file>
-      <file>${PROJECT_ROOT}\cyclohexane_data.mat</file>
-      <file>${PROJECT_ROOT}\h2o_data.mat</file>
-      <file>${PROJECT_ROOT}\ibs_logo.png</file>
-      <file>${PROJECT_ROOT}\KAIST_logo.png</file>
-      <file>${PROJECT_ROOT}\mecn_data.mat</file>
-      <file>${PROJECT_ROOT}\meoh_data.mat</file>
+      <file>D:\SDlab\Program\Sucbe_3.5\constant.mat</file>
+      <file>D:\SDlab\Program\Sucbe_3.5\cyclohexane_data.mat</file>
+      <file>D:\SDlab\Program\Sucbe_3.5\h2o_data.mat</file>
+      <file>D:\SDlab\Program\Sucbe_3.5\ibs_logo.png</file>
+      <file>D:\SDlab\Program\Sucbe_3.5\KAIST_logo.png</file>
+      <file>D:\SDlab\Program\Sucbe_3.5\mecn_data.mat</file>
+      <file>D:\SDlab\Program\Sucbe_3.5\meoh_data.mat</file>
     </fileset.depfun>
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="D:\SDlab\Program" name="Sucbe_3.4" optional="false">D:\SDlab\Program\Sucbe_3.4</file>
+      <file location="D:\SDlab\Documents" name="GitHub" optional="false">D:\SDlab\Documents\GitHub</file>
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>C:\Program Files\MATLAB\R2021a</root>
-      <toolboxes>
-        <toolbox name="matlabcoder" />
-        <toolbox name="gpucoder" />
-      </toolboxes>
-      <toolbox>
-        <matlabcoder>
-          <enabled>true</enabled>
-        </matlabcoder>
-      </toolbox>
-      <toolbox>
-        <gpucoder>
-          <enabled>true</enabled>
-        </gpucoder>
-      </toolbox>
+      <root>C:\Program Files\MATLAB\R2022a</root>
+      <toolboxes />
     </matlab>
     <platform>
       <unix>false</unix>
