@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3481591117" file="D:\SDlab\Program\Sucbe_3.10\S-cube.prj" location="D:\SDlab\Program\Sucbe_3.10" name="S-cube" target="target.mlapps" target-name="앱 패키징">
+  <configuration build-checksum="3532213583" file="D:\SDlab\Program\Sucbe_3.11\S-cube.prj" location="D:\SDlab\Program\Sucbe_3.11" name="S-cube" target="target.mlapps" target-name="앱 패키징">
     <param.appname>S-cube</param.appname>
     <param.authnamewatermark>Jungmin Kim</param.authnamewatermark>
     <param.email>jkim9486@gmail.com</param.email>
@@ -8,14 +8,14 @@
     <param.icons />
     <param.summary>Time-resolved x-ray solution scattering simulator</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\JungminKim\AppData\Local\Temp\tp51f872dd_f049_427c_a96c_f89076eeb0f5.png</param.screenshot>
-    <param.version>3.10</param.version>
+    <param.screenshot>C:\Users\JungminKim\AppData\Local\Temp\tp997cae4f_878f_4a44_a903_8cdcb29ed652.png</param.screenshot>
+    <param.version>3.11</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
     <param.platforms />
     <param.output>${PROJECT_ROOT}</param.output>
-    <param.guid>97227b14-81aa-48af-bbc8-4cac7e0045f6</param.guid>
+    <param.guid>657a5aff-59b2-44aa-890a-011763f90692</param.guid>
     <unset>
       <param.authnamewatermark />
       <param.email />
@@ -40,7 +40,7 @@
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="D:\SDlab\Program" name="Sucbe_3.10" optional="false">D:\SDlab\Program\Sucbe_3.10</file>
+      <file location="D:\SDlab\Program" name="Sucbe_3.11" optional="false">D:\SDlab\Program\Sucbe_3.11</file>
     </build-deliverables>
     <workflow />
     <matlab>
