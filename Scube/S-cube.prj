@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3532213583" file="D:\SDlab\Program\Sucbe_3.11\S-cube.prj" location="D:\SDlab\Program\Sucbe_3.11" name="S-cube" target="target.mlapps" target-name="앱 패키징">
+  <configuration build-checksum="490546852" file="D:\SDlab\Program\Sucbe_3.12\S-cube.prj" location="D:\SDlab\Program\Sucbe_3.12" name="S-cube" target="target.mlapps" target-name="앱 패키징">
     <param.appname>S-cube</param.appname>
     <param.authnamewatermark>Jungmin Kim</param.authnamewatermark>
     <param.email>jkim9486@gmail.com</param.email>
@@ -8,8 +8,8 @@
     <param.icons />
     <param.summary>Time-resolved x-ray solution scattering simulator</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\JungminKim\AppData\Local\Temp\tp997cae4f_878f_4a44_a903_8cdcb29ed652.png</param.screenshot>
-    <param.version>3.11</param.version>
+    <param.screenshot>C:\Users\JungminKim\AppData\Local\Temp\tp6a49a181_bc85_4f04_8de7_22bc5e0040bd.png</param.screenshot>
+    <param.version>3.12</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
@@ -34,13 +34,19 @@
     </fileset.main>
     <fileset.depfun>
       <file>D:\SDlab\MatlabPath\ASCArt.m</file>
-      <file>D:\SDlab\MatlabPath\constant.mat</file>
       <file>D:\SDlab\MatlabPath\figureAllocation.m</file>
+      <file>${PROJECT_ROOT}\constant.mat</file>
+      <file>${PROJECT_ROOT}\cyclohexane_data.mat</file>
+      <file>${PROJECT_ROOT}\h2o_data.mat</file>
+      <file>${PROJECT_ROOT}\ibs_logo.png</file>
+      <file>${PROJECT_ROOT}\KAIST_logo.png</file>
+      <file>${PROJECT_ROOT}\mecn_data.mat</file>
+      <file>${PROJECT_ROOT}\meoh_data.mat</file>
     </fileset.depfun>
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="D:\SDlab\Program" name="Sucbe_3.11" optional="false">D:\SDlab\Program\Sucbe_3.11</file>
+      <file location="D:\SDlab\Program" name="Sucbe_3.12" optional="false">D:\SDlab\Program\Sucbe_3.12</file>
     </build-deliverables>
     <workflow />
     <matlab>
