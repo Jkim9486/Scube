@@ -1,15 +1,19 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="2972333811" file="D:\SDlab\Program\Sucbe_3.13\S-cube.prj" location="D:\SDlab\Program\Sucbe_3.13" name="S-cube" target="target.mlapps" target-name="앱 패키징">
+  <configuration build-checksum="1932546690" file="D:\SDlab\Program\Sucbe_3.14\S-cube.prj" location="D:\SDlab\Program\Sucbe_3.14" name="S-cube" target="target.mlapps" target-name="앱 패키징">
     <param.appname>S-cube</param.appname>
     <param.authnamewatermark>Jungmin Kim</param.authnamewatermark>
     <param.email>jkim9486@gmail.com</param.email>
     <param.company>IBS CARD</param.company>
-    <param.icon />
-    <param.icons />
+    <param.icon>${PROJECT_ROOT}\S-cube_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\S-cube_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\S-cube_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\S-cube_resources\icon_16.png</file>
+    </param.icons>
     <param.summary>Time-resolved x-ray solution scattering simulator</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\JungminKim\AppData\Local\Temp\tpa9af5926_3bd1_4bde_b887_5c78e51a0c32.png</param.screenshot>
-    <param.version>3.13</param.version>
+    <param.screenshot>${PROJECT_ROOT}\scubeIcon.jpg</param.screenshot>
+    <param.version>3.14</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
@@ -20,8 +24,6 @@
       <param.authnamewatermark />
       <param.email />
       <param.company />
-      <param.icon />
-      <param.icons />
       <param.description />
       <param.products.name />
       <param.products.id />
@@ -35,18 +37,18 @@
     <fileset.depfun>
       <file>D:\SDlab\MatlabPath\ASCArt.m</file>
       <file>D:\SDlab\MatlabPath\figureAllocation.m</file>
-      <file>D:\SDlab\Program\Sucbe_3.12\constant.mat</file>
-      <file>D:\SDlab\Program\Sucbe_3.12\cyclohexane_data.mat</file>
-      <file>D:\SDlab\Program\Sucbe_3.12\h2o_data.mat</file>
-      <file>D:\SDlab\Program\Sucbe_3.12\mecn_data.mat</file>
-      <file>D:\SDlab\Program\Sucbe_3.12\meoh_data.mat</file>
+      <file>${PROJECT_ROOT}\constant.mat</file>
+      <file>${PROJECT_ROOT}\cyclohexane_data.mat</file>
+      <file>${PROJECT_ROOT}\h2o_data.mat</file>
       <file>${PROJECT_ROOT}\ibs_logo.png</file>
       <file>${PROJECT_ROOT}\KAIST_logo.png</file>
+      <file>${PROJECT_ROOT}\mecn_data.mat</file>
+      <file>${PROJECT_ROOT}\meoh_data.mat</file>
     </fileset.depfun>
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="D:\SDlab\Program" name="Sucbe_3.13" optional="false">D:\SDlab\Program\Sucbe_3.13</file>
+      <file location="D:\SDlab\Program" name="Sucbe_3.14" optional="false">D:\SDlab\Program\Sucbe_3.14</file>
     </build-deliverables>
     <workflow />
     <matlab>
