@@ -1,0 +1,72 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1026774252" file="D:\SDlab\Program\Sucbe_3.17\S-cube.prj" location="D:\SDlab\Program\Sucbe_3.17" name="S-cube" target="target.mlapps" target-name="앱 패키징">
+    <param.appname>S-cube</param.appname>
+    <param.authnamewatermark>Jungmin Kim</param.authnamewatermark>
+    <param.email>jkim9486@gmail.com</param.email>
+    <param.company>IBS CARD</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>Time-resolved x-ray solution scattering simulator</param.summary>
+    <param.description />
+    <param.screenshot>C:\Users\JungminKim\AppData\Local\Temp\tpe14b0377_b3aa_40e6_b786_fd1b7a264035.png</param.screenshot>
+    <param.version>3.17</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>56d757e5-5184-48f2-862d-02227d3eb1f0</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Scube.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\codes\constant_scube.mat</file>
+      <file>${PROJECT_ROOT}\codes\cyclohexane_data.mat</file>
+      <file>${PROJECT_ROOT}\codes\h2o_data.mat</file>
+      <file>${PROJECT_ROOT}\codes\mecn_data.mat</file>
+      <file>${PROJECT_ROOT}\codes\meoh_data.mat</file>
+      <file>${PROJECT_ROOT}\logo\ibs_logo.png</file>
+      <file>${PROJECT_ROOT}\logo\KAIST_logo.png</file>
+      <file>${PROJECT_ROOT}\logo\scubeIcon.jpg</file>
+      <file>${PROJECT_ROOT}\logo\자산 1240308_v2.png</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="D:\SDlab\Program" name="Sucbe_3.17" optional="false">D:\SDlab\Program\Sucbe_3.17</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2024a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
