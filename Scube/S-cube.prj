@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="1280668188" file="C:\Users\IBS\sdlab\Program\Sucbe_3.18\S-cube.prj" location="C:\Users\IBS\sdlab\Program\Sucbe_3.18" name="S-cube" target="target.mlapps" target-name="앱 패키징">
+  <configuration build-checksum="1091115324" file="C:\Users\IBS\sdlab\Program\Sucbe_3.19\S-cube.prj" location="C:\Users\IBS\sdlab\Program\Sucbe_3.19" name="S-cube" target="target.mlapps" target-name="앱 패키징">
     <param.appname>S-cube</param.appname>
     <param.authnamewatermark>Jungmin Kim</param.authnamewatermark>
     <param.email />
@@ -12,14 +12,14 @@
     </param.icons>
     <param.summary>Time-resolved x-ray solution scattering simulator</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\IBS\AppData\Local\Temp\tpdd632e44_4611_4c4f_a960_9f8411c1cfcf.png</param.screenshot>
-    <param.version>3.18</param.version>
+    <param.screenshot>C:\Users\IBS\AppData\Local\Temp\tp88d8d4bf_b48e_4737_9d92_608ada96765e.png</param.screenshot>
+    <param.version>3.19</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
     <param.platforms />
     <param.output>${PROJECT_ROOT}</param.output>
-    <param.guid>e59bc11b-041a-4dc9-a1a9-6351f4fe9b9c</param.guid>
+    <param.guid>4a300992-7967-44ad-b4f0-7110952df82b</param.guid>
     <unset>
       <param.email />
       <param.company />
@@ -42,12 +42,10 @@
       <file>${PROJECT_ROOT}\codes\meoh_data.mat</file>
       <file>${PROJECT_ROOT}\logo\ibs_logo.png</file>
       <file>${PROJECT_ROOT}\logo\KAIST_logo.png</file>
-      <file>${PROJECT_ROOT}\logo\scubeIcon.jpg</file>
-      <file>${PROJECT_ROOT}\logo\자산 1240308_v2.png</file>
     </fileset.resources>
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\IBS\sdlab\Program" name="Sucbe_3.18" optional="false">C:\Users\IBS\sdlab\Program\Sucbe_3.18</file>
+      <file location="C:\Users\IBS\sdlab\Program" name="Sucbe_3.19" optional="false">C:\Users\IBS\sdlab\Program\Sucbe_3.19</file>
     </build-deliverables>
     <workflow />
     <matlab>
