@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="1091115324" file="C:\Users\IBS\sdlab\Program\Sucbe_3.19\S-cube.prj" location="C:\Users\IBS\sdlab\Program\Sucbe_3.19" name="S-cube" target="target.mlapps" target-name="앱 패키징">
+  <configuration build-checksum="3709961769" file="C:\Users\IBS\sdlab\Program\Sucbe_3.20\S-cube.prj" location="C:\Users\IBS\sdlab\Program\Sucbe_3.20" name="S-cube" target="target.mlapps" target-name="앱 패키징">
     <param.appname>S-cube</param.appname>
     <param.authnamewatermark>Jungmin Kim</param.authnamewatermark>
     <param.email />
@@ -12,8 +12,8 @@
     </param.icons>
     <param.summary>Time-resolved x-ray solution scattering simulator</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\IBS\AppData\Local\Temp\tp88d8d4bf_b48e_4737_9d92_608ada96765e.png</param.screenshot>
-    <param.version>3.19</param.version>
+    <param.screenshot>C:\Users\IBS\AppData\Local\Temp\tpce3dbe2e_fb00_45e3_af6a_af56847113e7.png</param.screenshot>
+    <param.version>3.20</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
@@ -45,7 +45,7 @@
     </fileset.resources>
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\IBS\sdlab\Program" name="Sucbe_3.19" optional="false">C:\Users\IBS\sdlab\Program\Sucbe_3.19</file>
+      <file location="C:\Users\IBS\sdlab\Program" name="Sucbe_3.20" optional="false">C:\Users\IBS\sdlab\Program\Sucbe_3.20</file>
     </build-deliverables>
     <workflow />
     <matlab>
